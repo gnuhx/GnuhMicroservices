@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{847303CF-4684-48A3-8034-D4D882586591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{094A8009-9549-4B3E-9F44-FCBE19DFAF4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{094A8009-9549-4B3E-9F44-FCBE19DFAF4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{38219C18-822D-438F-B07E-E932B245142F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{933853AC-430E-4EE8-AC17-C5D3C1AEBE85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{094A8009-9549-4B3E-9F44-FCBE19DFAF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{094A8009-9549-4B3E-9F44-FCBE19DFAF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{094A8009-9549-4B3E-9F44-FCBE19DFAF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933853AC-430E-4EE8-AC17-C5D3C1AEBE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933853AC-430E-4EE8-AC17-C5D3C1AEBE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933853AC-430E-4EE8-AC17-C5D3C1AEBE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933853AC-430E-4EE8-AC17-C5D3C1AEBE85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{847303CF-4684-48A3-8034-D4D882586591} = {E88E1574-E495-4DA9-8171-E3D547BE1BF3}
 		{094A8009-9549-4B3E-9F44-FCBE19DFAF4C} = {847303CF-4684-48A3-8034-D4D882586591}
+		{933853AC-430E-4EE8-AC17-C5D3C1AEBE85} = {38219C18-822D-438F-B07E-E932B245142F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45DA3710-4B20-4F0F-B609-96A601AA708E}
